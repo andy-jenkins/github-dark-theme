@@ -1,0 +1,198 @@
+/* 
+
+Color Palette
+-------------
+
+Black          : #000000
+Dark gray      : #212121
+Mid gray       : #303030
+Light gray     : #424242
+White          : #FFFFFF
+
+Primary        : #B497D6
+Secondary      : #0EB1D2
+Alternate 1    : #F3DE8A
+Alternate 2    : #EB9486
+
+Primary variant: #8E6CB7
+
+-------------------------------------------------- */
+
+
+
+/* Generic overrides
+-------------------------------------------------- */
+::placeholder {
+  color: #FFFFFF !important;
+}
+
+a {
+    color: #FFFFFF !important;
+}
+
+.blankslate {
+    background-color: #303030 !important;
+    border-color: #424242 !important;
+    color: #FFFFFF !important;
+}
+
+body {
+    background-color: #212121 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #424242 !important;
+}
+
+.Label--outline {
+    background-color: #303030 !important;
+    color: #FFFFFF !important;
+}
+
+.link-gray-dark {
+    color: #FFFFFF !important;
+}
+
+.mail-status {
+    background-image: linear-gradient(#B497D6,#B497D6) !important;
+}
+
+.muted-link {
+    color: #FFFFFF !important;
+}
+
+.text-gray {
+    color: #FFFFFF !important;
+}
+
+.text-gray-dark {
+    color: #FFFFFF !important;
+}
+
+.topic-tag {
+    background-color: #B497D6 !important;
+}
+
+
+
+/* Navigation and header
+-------------------------------------------------- */
+.Header {
+    background-color: #212121 !important;
+}
+
+.orghead {
+    background-color: #303030 !important;
+    border-bottom: 1px solid #424242 !important;
+}
+
+.org-name {
+    color: #FFFFFF !important;
+}
+
+.org-description {
+    color: #FFFFFF !important;
+}
+
+.org-repos {
+    color: #FFFFFF !important;
+}
+
+.pagehead-tabs-item {
+    color: #FFFFFF !important;
+}
+
+.pagehead-tabs-item svg {
+    color: #FFFFFF !important;
+}
+
+.reponav-item.selected,
+.pagehead-tabs-item.selected {
+    background-color: #212121 !important;
+    border-bottom: 1px solid #212121 !important;
+    border-left: 1px solid #424242 !important;
+    border-right: 1px solid #424242 !important;
+    border-top: 3px solid #B497D6 !important;
+    color: #FFFFFF !important;
+}
+
+.pagehead-tabs-item .Counter {
+    background-color: #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.repohead {
+    background-color: #303030 !important;
+    border-bottom: 1px solid #424242 !important;
+}
+
+.application-main {
+    background-color: #212121;
+}
+
+
+
+/* Boxes
+-------------------------------------------------- */
+.Box {
+    background-color: #303030 !important;
+    border-color: #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.Box-body {
+    border-bottom: none;
+}
+
+
+
+/* Form
+-------------------------------------------------- */
+.btn {
+    background-color: #303030 !important;
+    background-image: none;
+    border: 1px solid #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.btn:hover {
+    background-color: #212121 !important;
+    background-image: none;
+}
+
+.btn-link {
+    color: #FFFFFF !important;
+}
+
+.btn-primary {
+    background-color: #B497D6 !important;
+}
+
+.btn-primary:hover {
+    background-color: #8E6CB7 !important;
+}
+
+.form-control {
+    background-color: #303030 !important;
+    border: 1px solid #424242 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+/* Table
+-------------------------------------------------- */
+.table-list-cell {
+    border-color: #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.table-list-header {
+    background-color: #303030 !important;
+    border: 1px solid #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.table-list-heading {
+    color: #FFFFFF !important;
+}
