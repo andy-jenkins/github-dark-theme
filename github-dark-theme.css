@@ -1,21 +1,16 @@
 /* 
-
 Color Palette
 -------------
-
 Black          : #000000
 Dark gray      : #212121
 Mid gray       : #303030
 Light gray     : #424242
 White          : #FFFFFF
-
 Primary        : #B497D6
 Secondary      : #0EB1D2
 Alternate 1    : #F3DE8A
 Alternate 2    : #EB9486
-
 Primary variant: #8E6CB7
-
 -------------------------------------------------- */
 
 
@@ -49,6 +44,10 @@ body {
     color: #FFFFFF !important;
 }
 
+.lang {
+    color: #FFFFFF !important;
+}
+
 .link-gray-dark {
     color: #FFFFFF !important;
 }
@@ -58,6 +57,19 @@ body {
 }
 
 .muted-link {
+    color: #FFFFFF !important;
+}
+
+.octicon {
+    color: #FFFFFF !important;
+}
+
+.social-count {
+    background-color: #303030 !important;
+    border: 1px solid #424242 !important;
+}
+
+.text-emphasized {
     color: #FFFFFF !important;
 }
 
@@ -98,10 +110,12 @@ body {
     color: #FFFFFF !important;
 }
 
+.reponav-item,
 .pagehead-tabs-item {
     color: #FFFFFF !important;
 }
 
+.reponav-item svg,
 .pagehead-tabs-item svg {
     color: #FFFFFF !important;
 }
@@ -116,6 +130,7 @@ body {
     color: #FFFFFF !important;
 }
 
+.reponav-item .Counter,
 .pagehead-tabs-item .Counter {
     background-color: #424242 !important;
     color: #FFFFFF !important;
@@ -176,6 +191,20 @@ body {
     background-color: #303030 !important;
     border: 1px solid #424242 !important;
     color: #FFFFFF !important;
+}
+
+
+
+/* Repository View
+-------------------------------------------------- */
+.overall-summary {
+    background-color: #303030 !important;
+    border-color: #424242 !important;
+    color: #FFFFFF !important;
+}
+
+.repository-lang-stats-graph {
+    border: none;
 }
 
 
